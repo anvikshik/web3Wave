@@ -1,0 +1,42 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: grey;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  font-size: 15px; 
+  font-weight: 700;
+  color: white;
+  border-radius: 6px; 
+  font-family: DM Sans,sans-serif;
+  background-image: linear-gradient(62deg,#103CE7,#64E9FF);
+}
+
+.gif{
+  display: contents;
+}
